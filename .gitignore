@@ -1,0 +1,16 @@
+/node_modules
+.idea
+/client/node_modules
+.env.development
+.env.production
+.env
+.firebase
+/certs
+/config
+cookies.json
+/client/env.development
+/client/env.production
+/client/build
+/static
+
+

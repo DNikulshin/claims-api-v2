@@ -1,0 +1,113 @@
+body {
+    overflow: scroll!important;
+}
+* {
+    box-sizing: border-box!important;
+}
+.btn-accordion {
+    background: rgba(238, 234, 238, 0.7) !important;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: inherit !important;
+}
+
+.btn-accordion-active {
+    background: rgba(204, 229, 204, 0.8) !important;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5) !important;
+}
+
+.accordion-body p:hover {
+    background: rgba(233, 222, 135, 0.5) !important;
+}
+
+.text-decor-none {
+    text-decoration: none !important;
+}
+
+.font-size-tel {
+    font-size: 3rem !important;
+}
+
+.text-yellow {
+    color: #e7b00d !important;
+}
+
+.btn-phone {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;
+}
+
+.btn-hover {
+    transition: all .5s !important;
+}
+
+.btn-hover:hover {
+    color: #e7b00d !important;
+    transform: scale(1.1) !important;
+    transition: all .5s !important;
+}
+
+@media (min-width: 678px) {
+    .btn-accordion:hover {
+        background: rgba(152, 229, 152, 0.8) !important;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5) !important;
+    }
+}
+
+
+.show-body-enter {
+    opacity: 0.01 !important;
+    transform: scale(0.9);
+}
+
+.show-body-enter-active {
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+    transition: opacity 300ms, transform 300ms !important;
+}
+
+.show-body-exit {
+    opacity: 1 !important;
+}
+
+.show-body-exit-active {
+    opacity: 0.01 !important;
+    transform: scale(0.9) !important;
+    transition: opacity 300ms, transform 300ms !important;
+}
+
+.hideElement {
+    opacity: 0 !important;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.cursor-pointer:hover {
+    color: white !important;
+    background: rgba(238, 28, 28, 0.7) !important;
+}
+.margin-left {
+    margin-left: 1.5rem!important;
+    font-size: 1.5rem!important;
+}
+
+.map-styles {
+    overflow-y: auto!important;
+    width: 100%!important;
+    height: 60vh!important;
+}
+
+.font-size-home {
+    font-size: 3rem!important;
+}
+
+.text-decoration-none {
+    text-decoration: none!important;
+}
+
+.box-shadow {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;
+}
